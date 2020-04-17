@@ -36,5 +36,6 @@ end
     if @@all.include?(song) == false
     @@all << song    
   end
+end
   
 end
