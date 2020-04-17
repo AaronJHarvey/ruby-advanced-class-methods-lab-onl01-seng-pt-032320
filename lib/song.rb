@@ -45,6 +45,7 @@ end
   end
   
   
-  def self.new_from_filename(-.mp3)
+  def self.new_from_filename(name)
+s = self.new 
   end 
 end
