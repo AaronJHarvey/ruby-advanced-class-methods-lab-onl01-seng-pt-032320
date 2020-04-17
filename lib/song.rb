@@ -35,6 +35,7 @@ end
   def self.find_or_create_by_name(name)
     if @@all.include?(name) == false
     @@all << name   
+    @@all
   end
 end
   
