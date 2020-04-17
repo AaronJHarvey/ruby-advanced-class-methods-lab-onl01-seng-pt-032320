@@ -47,5 +47,6 @@ end
   
   def self.new_from_filename(name)
 s = self.new 
+s.name = (name.split(" - ")[1].chomp(".mp3"))
   end 
 end
